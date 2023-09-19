@@ -4,7 +4,7 @@ namespace banco.Conta
     public class Corrente : Conta
     {
         public Corrente() { }
-        public Corrente(int agencia, int numero, decimal saldo, string banco, decimal taxaConta) : base(agencia, numero, saldo, banco)
+        public Corrente(int id, int agencia, int numero, decimal saldo, string banco, decimal taxaConta) : base(agencia, numero, saldo, banco, id)
         {
             TaxaConta = taxaConta;
         }

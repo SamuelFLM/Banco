@@ -4,7 +4,7 @@ namespace banco.Conta
     public class Poupanca : Conta
     {
         public Poupanca() { }
-        public Poupanca(int agencia, int numero, decimal saldo, string banco, decimal rendimento) : base(agencia, numero, saldo, banco)
+        public Poupanca(int id, int agencia, int numero, decimal saldo, string banco, decimal rendimento) : base(agencia, numero, saldo, banco, id)
         {
             Rendimento = rendimento;
         }

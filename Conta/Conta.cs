@@ -4,13 +4,15 @@ namespace banco.Conta
     public abstract class Conta
     {
         public Conta() { }
-        public Conta(int agencia, int numero, decimal saldo, string banco)
+        public Conta(int agencia, int numero, decimal saldo, string banco, int id)
         {
             Agencia = agencia;
             Numero = numero;
             Saldo = saldo;
             Banco = banco;
+            Id = id;
         }
+        public int Id { get; set; }
         public int Agencia { get; set; }
         public int Numero { get; set; }
         public decimal Saldo { get; set; }
