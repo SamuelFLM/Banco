@@ -1,55 +1,36 @@
 {
   "Cliente": [
     {
-      "Pessoa": [
-        {
-          "Fisicas": [
-            {
-              "_nome": "Samuel",
-              "_idade": 21,
-              "CPF": "283.123.736-02",
-              "Id": 1000,
-              "Nome": "Samuel",
-              "Idade": 21
-            }
-          ],
-          "Juridicas": [
-            {
-              "_nome": "Bruno",
-              "_idade": 45,
-              "NomeFantasia": "SOLUÇÔES LTDA",
-              "CNPJ": "51.124.666/0000-66",
-              "Id": 35,
-              "Nome": "Bruno",
-              "Idade": 45
-            }
-          ]
-        }
-      ],
-      "Conta": [
-        {
-          "Correntes": [
-            {
-              "TaxaConta": 0.0,
-              "Id": 13,
-              "Agencia": 523,
-              "Numero": 21,
-              "Saldo": 5000.0,
-              "Banco": "SALAME"
-            }
-          ],
-          "Poupancas": [
-            {
-              "Rendimento": 2.0,
-              "Id": 234,
-              "Agencia": 13512,
-              "Numero": 0,
-              "Saldo": 10000000.0,
-              "Banco": "PUDIM"
-            }
-          ]
-        }
-      ]
+      "PessoaFisica": {
+        "CPF": "283.123.736-02",
+        "Id": 1,
+        "Nome": "Samuel",
+        "Idade": 21
+      },
+      "ContaCorrente": {
+        "TaxaConta": 0.0,
+        "Id": 1,
+        "Agencia": 523,
+        "Numero": 21,
+        "Saldo": 5000.0,
+        "Banco": "SALAME"
+      }
+    },
+    {
+      "PessoaJuridica": {
+        "CNPJ": "0992-2323124/00001.1",
+        "Id": 2,
+        "Nome": "EMPRESA EMPANADOS LTDA",
+        "Idade": 0
+      },
+      "ContaPoupanca": {
+        "Rendimento": 10.0,
+        "Id": 2,
+        "Agencia": 23341,
+        "Numero": 321342,
+        "Saldo": 10000000.0,
+        "Banco": "ACTIVIA"
+      }
     }
   ]
 }

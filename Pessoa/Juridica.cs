@@ -8,12 +8,10 @@ namespace banco.Pessoa
     public class Juridica : Pessoa
     {
         public Juridica() { }
-        public Juridica(int id, string nome, byte idade, string nomeFantasia, string cnpj) : base(nome, idade, id)
+        public Juridica(int id, string nome, string cnpj) : base(nome, id)
         {
-            NomeFantasia = nomeFantasia;
             CNPJ = cnpj;
         }
-        public string NomeFantasia { get; set; }
         public string CNPJ { get; set; }
         public override void ValidarDados()
         {

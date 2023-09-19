@@ -4,7 +4,11 @@ namespace banco.Pessoa
     public abstract class Pessoa
     {
         public Pessoa() { }
-
+        public Pessoa(string nome, int id)
+        {
+            Nome = nome;
+            Id = id;
+        }
         public Pessoa(string nome, byte idade, int id)
         {
             Nome = nome;
@@ -12,8 +16,8 @@ namespace banco.Pessoa
             Id = id;
         }
         public int Id { get; set; }
-        public string _nome;
-        public byte _idade;
+        private string _nome;
+        private byte _idade;
         public string Nome
         {
             get => _nome;
