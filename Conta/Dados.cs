@@ -1,12 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace banco.Conta
 {
     public class Dados
     {
-        
+        public Dados() { }
+        public List<Corrente> Correntes = new List<Corrente>();
+        public List<Poupanca> Poupancas = new List<Poupanca>();
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XDkxJWN9DS6QU6V3puE76TQllSnGHkP5XFBacEtZLrGZJmIWWsdZ8KUcIszwnztcbT/dEi7w3xHGlyunF10Umg==",
+  "dgSpecHash": "ezhKQN1sVzRlypQTw4GGi86B6PxgCsoOi18KrGWSL0JqJhUUBatekkdIOx5jZaIstheujEfTmwjNvEOy9wrH5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Test\\Test.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\banco\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lazer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
