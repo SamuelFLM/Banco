@@ -7,6 +7,8 @@ namespace banco.Pessoa
 {
     public class Dados
     {
-        
+        public Dados(){}
+        public List<Fisica> Pessoas = new List<Fisica>();
+        public List<Juridica> Juridicas = new List<Juridica>();
     }
 }
