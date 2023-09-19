@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace banco.Pessoa
 {
-    public class Dados
+    public class DadosPessoa
     {
-        public Dados(){}
+        public DadosPessoa() { }
         public List<Fisica> Pessoas = new List<Fisica>();
         public List<Juridica> Juridicas = new List<Juridica>();
     }
