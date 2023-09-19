@@ -25,11 +25,14 @@ namespace banco.Conta
 
         public void Sacar(decimal valor)
         {
-            if (Saldo >= valor) => Saldo -= valor;
-            else => throw new Exception("Valor não pode ser maior que saldo disponivel.")
+            if (Saldo >= valor)
+            {
+                Saldo -= valor;
+            }
+            else { throw new Exception("Valor não pode ser maior que saldo disponivel."); }
         }
 
-        public Depositar(decimal valor)
+        public void Depositar(decimal valor)
         {
             Saldo += valor;
         }
