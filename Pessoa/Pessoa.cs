@@ -5,11 +5,13 @@ namespace banco.Pessoa
     {
         public Pessoa() { }
 
-        public Pessoa(string nome, byte idade)
+        public Pessoa(string nome, byte idade, int id)
         {
             Nome = nome;
             Idade = idade;
+            Id = id;
         }
+        public int Id { get; set; }
         public string _nome;
         public byte _idade;
         public string Nome

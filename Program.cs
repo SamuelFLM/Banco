@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using Newtonsoft.Json;
+
+internal class Program
 {
     private static void Main(string[] args)
     {

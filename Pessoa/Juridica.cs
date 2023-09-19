@@ -8,7 +8,7 @@ namespace banco.Pessoa
     public class Juridica : Pessoa
     {
         public Juridica() { }
-        public Juridica(string nome, byte idade, string nomeFantasia, string cnpj) : base(nome, idade)
+        public Juridica(int id, string nome, byte idade, string nomeFantasia, string cnpj) : base(nome, idade, id)
         {
             NomeFantasia = nomeFantasia;
             CNPJ = cnpj;

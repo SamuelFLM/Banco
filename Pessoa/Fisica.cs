@@ -8,7 +8,7 @@ namespace banco.Pessoa
     public class Fisica : Pessoa
     {
         public Fisica() { }
-        public Fisica(string nome, byte idade, string cpf) : base(nome, idade)
+        public Fisica(int id, string nome, byte idade, string cpf) : base(nome, idade, id)
         {
             CPF = cpf;
         }
