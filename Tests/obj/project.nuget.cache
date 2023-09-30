@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zDspAn1oW8ijrsdtZxvGR3ffuJBVlK9AkqxzqliBoISNsgQuT+gutAenzQzTjizWqXqVpnP5Qz6BSNrA1cHM3g==",
+  "dgSpecHash": "0/jFQbrE40Y12NusfKRKubJtPDqfzZSSQ/KNxpx2pIQysiKNKkutulm4X7si4AaBJTKp4pitnNMHdUyoxViHqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\project\\banco\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,7 @@
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Lazer\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Lazer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Lazer\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
